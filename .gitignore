@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+swarm-env/
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Datasets (large files)
+datasets/MMLU/data.tar
+datasets/MMLU/data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tensorboard logs
+runs/
+result/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
